@@ -1,3 +1,4 @@
+/* Home Page */
 .header{
     display: flex;
     justify-content: space-around;
@@ -14,6 +15,8 @@
 .title{
     display: flex;
     justify-content: center;
+
+    text-decoration: underline;
 }
 
 .pixel{
@@ -37,3 +40,8 @@
     color: white;
 
 }
+
+/* About Page */
+
+
+/* Student Projects */
