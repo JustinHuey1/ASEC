@@ -51,4 +51,19 @@
 .members{
     margin-top: 100px;
 }
+
+.profile{
+    border: solid black 2px;
+
+    height: 60px;
+    width: 20%;
+
+    margin-right: 10px;
+}
+
+.people{
+    display: flex;
+
+    margin: 5px;
+}
 /* Student Projects */
