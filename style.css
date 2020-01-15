@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
 
-    background-color: black;
+    background-color: #33ccff;
     height: 50px;
 }
 
@@ -17,17 +17,20 @@
     justify-content: center;
 
     text-decoration: underline;
+    font-family: 'Indie Flower', cursive;
 }
 
 .pixel{
     width: 100%;
     height: 300px;
+
+    border: solid black 2px;
 }
 
 .footer{
     /* display: block; */
     
-    background-color: black;
+    background-color: #ff99cc ;
     
     margin-top: 100px;
 
@@ -42,10 +45,20 @@
     display: block;
 }
 
+.announcements{
+    margin-top: 100px;
+}
 /* About Page */
 .missionPicture{
-    height: 200px;
+    height: 250px;
     width: 100%;
+}
+
+.missionstatement{
+    font-weight: bold;
+    font-size: 30px;
+
+    font-family: 'Permanent Marker', cursive;
 }
 
 .members{
@@ -67,3 +80,7 @@
     margin: 5px;
 }
 /* Student Projects */
+
+body{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
