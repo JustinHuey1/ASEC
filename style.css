@@ -49,9 +49,14 @@
     margin-top: 100px;
 }
 /* About Page */
+.planet{
+    display: flex;
+    justify-content: center;
+}
+
 .missionPicture{
     height: 250px;
-    width: 100%;
+    width: 50%;
 }
 
 .missionstatement{
