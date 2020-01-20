@@ -28,8 +28,6 @@
 }
 
 .footer{
-    /* display: block; */
-    
     background-color: #ff99cc ;
     
     margin-top: 100px;
@@ -48,6 +46,7 @@
 .announcements{
     margin-top: 100px;
 }
+
 /* About Page */
 .planet{
     display: flex;
@@ -68,21 +67,24 @@
 
 .members{
     margin-top: 100px;
+    justify-content: space-between;
 }
+
+.row{
+    display: flex;
+}
+
 
 .profile{
     border: solid black 2px;
 
     height: 60px;
-    width: 20%;
-
-    margin-right: 10px;
 }
 
-.people{
-    display: flex;
+.profile{
+    width: 35%;
 
-    margin: 5px;
+    margin-right: 10px;
 }
 /* Student Projects */
 
