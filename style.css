@@ -76,6 +76,8 @@
 
 .members{
     margin-top: 100px;
+
+    display: block;
     justify-content: space-between;
 }
 
@@ -92,7 +94,8 @@
 .profile{
     border: solid black 2px;
 
-    height: 60px;
+    height: 100px;
+    width: 120px
 }
 
 /* Student Projects */
