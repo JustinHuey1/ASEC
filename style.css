@@ -81,6 +81,7 @@
 
 .people{
     margin: 20px;
+    margin-right: 250px;
 }
 
 .row{
@@ -94,9 +95,6 @@
     height: 60px;
 }
 
-.profile{
-    margin-right: 10px;
-}
 /* Student Projects */
 
 body{
