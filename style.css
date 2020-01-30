@@ -2,15 +2,25 @@
 .top{
     color: white;
 
-    font-size: 25px;
+    font-size: 45px;
 }
 
 .bot{
     color: white;
 
     display: block;
+    font-size: 30px;
 }
 
+.footer{
+    background-color: #ff99cc ;
+    
+    margin-top: 100px;
+
+    bottom: 0;
+    left: 5px;
+    height: 70px;
+}
 /* Home Page */
 .header{
     display: flex;
@@ -26,6 +36,7 @@
 
     text-decoration: underline;
     font-family: 'Indie Flower', cursive;
+    margin-bottom: 15px;
 }
 
 .pictures{
@@ -36,20 +47,10 @@
 .pixel{
 
     width: 75%;
-    height: 300px;
+    height: 400px;
 
     background-color: white;
     border: solid black 2px;
-}
-
-.footer{
-    background-color: #ff99cc ;
-    
-    margin-top: 100px;
-
-    bottom: 0;
-    left: 5px;
-    height: 60px;
 }
 
 .announcements{
@@ -83,7 +84,7 @@
 
 .people{
     margin: 20px;
-    margin-right: 250px;
+    margin-right: 350px;
 }
 
 .row{
@@ -94,8 +95,8 @@
 .profile{
     border: solid black 2px;
 
-    height: 100px;
-    width: 120px
+    height: 150px;
+    width: 150px
 }
 
 /* Student Projects */
