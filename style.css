@@ -15,7 +15,6 @@ body{
     color: white;
 
     font-size: 45px;
-    margin-right: 50px;
 }
 
 .bot{
@@ -109,4 +108,12 @@ body{
     border: solid black 2px;
     height: 250px;
     width: 30%;
+    margin: 0.5px;
 }
+
+.row1{
+    display: flex;
+    justify-content: center;
+}
+
+
