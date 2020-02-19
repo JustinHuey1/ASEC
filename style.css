@@ -108,7 +108,9 @@ body{
     height: 250px;
     width: 30%;
     margin: 11px;
+}
 
+.row{
     display: flex;
     justify-content: space-around;
 }
