@@ -2,10 +2,20 @@ body{
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
 
+.header{
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #33ccff;
+    height: 50px;
+}
+
 .top{
+    position: fixed; 
     color: white;
 
     font-size: 45px;
+    margin-right: 50px;
 }
 
 .bot{
@@ -25,14 +35,6 @@ body{
     height: 70px;
 }
 /* Home Page */
-.header{
-    display: flex;
-    justify-content: space-around;
-
-    background-color: #33ccff;
-    height: 50px;
-}
-
 .title{
     display: flex;
     justify-content: center;
@@ -107,10 +109,4 @@ body{
     border: solid black 2px;
     height: 250px;
     width: 30%;
-    margin: 11px;
-}
-
-.row{
-    display: flex;
-    justify-content: space-around;
 }
