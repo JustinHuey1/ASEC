@@ -1,6 +1,6 @@
 $(function() {
 
-    var $sidebar   = $("top"), 
+    var $sidebar   = $("header"), 
         $window    = $(window),
         offset     = $sidebar.offset(),
         topPadding = 15;
