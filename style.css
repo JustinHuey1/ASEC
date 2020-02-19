@@ -3,10 +3,12 @@ body{
 }
 
 .header{
-    position: fixed;
     display: flex;
     justify-content: space-around;
     height: 50px;
+
+    position: -webkit-sticky;
+    position: sticky;
 }
 
 .top{
@@ -39,6 +41,7 @@ body{
     text-decoration: underline;
     font-family: 'Indie Flower', cursive;
     margin-bottom: 15px;
+    margin-top: 50px;
 }
 
 .pictures{
