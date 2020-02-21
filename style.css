@@ -89,12 +89,12 @@ body{
 }
 
 .people{
-    margin: 20px;
-    margin-right: 350px;
+
 }
 
 .row{
     display: flex;
+    justify-content: space-around;
 }
 
 
