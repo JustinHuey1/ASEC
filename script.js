@@ -18,3 +18,7 @@ $(function() {
     });
     
 });
+
+function Open(){
+    window.open("https://www.instagram.com/cn.asec/?hl=en", '_blank');
+}
