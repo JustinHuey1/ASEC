@@ -52,7 +52,7 @@ body{
 
 .pixel{
 
-    width: 75vw;
+    width: 50vw;
     height: auto;
 
     background-color: white;
@@ -89,7 +89,8 @@ body{
 }
 
 .people{
-
+    width: 35%;
+    margin: 3%;
 }
 
 .row{
